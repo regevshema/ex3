@@ -24,9 +24,24 @@ body {
 }
 
 header {
+    display: flex;
     height: 123px;
     width: 100%;
     background-color: #F2E9E9;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+header div.upperSquare {
+
+    height: 80px;
+    width: 80px;
+    background-color: #000000;
+    margin-right: 21px;
+    margin-top: 21px;
+    margin-bottom: 22px;
+
+
 }
 
 header nav {
@@ -751,7 +766,7 @@ aside .right-side {
     width: 104px;
     height: 995px;
     background-color: #1846ef49;
-    margin-left: 964px;
+    margin-left: 0px;
 
 }
 
@@ -829,5 +844,29 @@ aside .right-side {
         display: flex;
         margin-top: 1346px;
     }
+
+}
+
+aside .blackSquare {
+
+    display: flex;
+    width: 964px;
+    height: 995px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    overflow: auto;
+
+}
+
+aside .blackSquare div {
+    display: flex;
+    background-color: #000000;
+    width: 80px;
+    height: 80px;
+    margin-top: 123px;
+    margin-left: 132px;
+    justify-content: center;
+    align-items: center;
 
 }
